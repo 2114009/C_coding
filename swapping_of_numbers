@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int a,b,c,d;
+    
+   printf("Enter two integers:");
+   scanf("%d  %d",&a,&b);
+   c=b;
+   d=a;
+   a=c;
+   b=d;
+   printf("After scanning  %d  %d",a,b);
+   return 0;
+   
+}
