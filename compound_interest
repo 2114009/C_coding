@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    double principal;
+	printf("Enter the principal amount:  \n");
+	scanf("%lf",&principal);
+	
+	 double rate;
+	 printf("enter rate:  \n");
+	 scanf("%lf",&rate);
+	 
+	 double time;
+	 printf("Enter time:  \n");
+	 scanf("%lf",&time);
+	 
+	  double amount;
+	 amount=principal*(pow((1+rate/100),time));
+	 printf("Amount  %lf  \n",amount);
+	 
+	 double CI;
+	 CI=amount-principal;
+	 printf("Compunt interest:  %lf",CI);
+	 
+	 
+	return 0;
+}
