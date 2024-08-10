@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void evenOddCheck(int a)
+{
+	int rem = a % 2;
+	if (rem ==0)
+	{   
+	   printf("Even number");
+	}
+	else
+	{
+	   printf("Odd number");
+	}
+}
+int main() {
+	int a=12;
+	evenOddCheck(a);
+	return 0;
+}
